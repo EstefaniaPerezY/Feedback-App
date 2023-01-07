@@ -1,6 +1,13 @@
+import Header from "./components/Header"
 function App(){
     return (
-        <h1>Hello from the App component</h1>
+        <>
+        <Header text={'not the default text'}/>
+        <div className='container'>
+            <h1>My App</h1>
+            <p>Hello from component</p>
+        </div>
+        </>
     )
 }
 export default App
